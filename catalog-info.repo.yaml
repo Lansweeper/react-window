@@ -1,11 +1,11 @@
-apiVersion: backstage.io/v1alpha1
-kind: Component
+apiVersion: lansweeper.com/v1alpha1
+kind: Repository
 metadata:
-  name: react-window
-  description: React components for efficiently rendering large lists and tabular data
   annotations:
     github.com/project-slug: Lansweeper/react-window
+  description: React components for efficiently rendering large lists and tabular
+    data
+  name: react-window
 spec:
-  type: github-repository
-  owner: unknown
   lifecycle: stable
+  owner: unknown
